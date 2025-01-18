@@ -1,0 +1,112 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.social-links,
+.skills,
+.Bio,
+.education,
+.projects,
+.contact {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.social-links a {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #0077b5; 
+    border-radius: 5px;
+}
+
+.certificate-button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .certificate-button:hover {
+    background-color: #45a049;
+  }
+  
+  .certificate-button:active {
+    background-color: #3d8b40;
+  }
+.social-links a:nth-child(2) { background-color: #333; } /* GitHub */
+.social-links a:nth-child(3) { background-color: #0077b5; } /* LinkedIn */
+.contact,
+.projects {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.contact a {
+    color: #0077b5;
+    text-decoration: none;
+}
+.header33 {
+   
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+.header33 a {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #0077b5; 
+    border-radius: 5px;
+}
+/*.header33 a:nth-child(2) { background-color: #333; } 
+.header33 a:nth-child(3) { background-color: #0077b5; } /* LinkedIn */
+
+.header img {
+    text-align: center;
+    width: 150px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+}
